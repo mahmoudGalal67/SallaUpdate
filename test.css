@@ -1,0 +1,94 @@
+/* Add custom CSS styles below */
+.container {
+  background-color: #3a6155;
+}
+
+marquee span {
+  margin: 0 48px;
+}
+
+.marquee h1 {
+  font-size: 5em;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.copyrights {
+  text-align: center;
+  color: black;
+}
+/**  **/
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #c5c05d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  white-space: nowrap !important;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+
+  z-index: 100;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #c5c05d;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar.sm {
+  display: none;
+}
+@media (max-width: 770px) {
+  .navbar.sm {
+    display: block;
+  }
+  .navbar.lg {
+    display: none;
+  }
+  .navbar a {
+    font-size: 14px;
+    padding: 14px 4px;
+  }
+}
