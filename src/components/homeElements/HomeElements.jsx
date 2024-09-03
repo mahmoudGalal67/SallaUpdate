@@ -247,7 +247,7 @@ function HomeElements({ settoggleSidebar }) {
             <Button
               type="submit"
               onClick={handleMovingSections}
-              className="submit-button"
+              className="submit-button moving-submit"
               variant="info"
             >
               حفظ التغييرات

@@ -46,6 +46,9 @@
 .home-sections.menu-sub {
   overflow-y: auto !important;
 }
+.home-sections.menu-sub .moving-submit {
+  z-index: 0;
+}
 
 .home-sections.menu-sub .add-wrapper-list {
   height: 80% !important;
